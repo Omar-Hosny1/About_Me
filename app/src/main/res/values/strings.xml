@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About_me</string>
+    <string name="name">Omar Hosny</string>
+    <string name="yellow_star">Yellow Start</string>
+    <string name="bio">I am a highly motivated software engineer with a strong background in problem-solving and a passion for learning new technologies.
+
+        Currently, I am a student at I-Tech School following the P-Tech model supported by IBM. My goal is to gain extensive experience in modern front-end technologies, including web and mobile development, as well as back-end technologies.
+
+        I have been programming since a young age and have a deep love for the field. I am dedicated to continuously improving my skills and staying current with industry trends, and I am also a team player and always willing to go the extra mile to achieve project success.
+
+        I am actively participating in coding challenges on Leetcode, with the goal of becoming one of the top-ranked users on this platform.
+
+        I am looking forward to securing a position with a leading technology company, such as a FAANG company, particularly Google, and becoming a competitive programmer.
+    </string>
+    <string name="nickname_hint">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>
