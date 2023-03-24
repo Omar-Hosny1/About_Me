@@ -2,6 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <data>
+        <variable
+            name="myName"
+            type="com.example.about_me.MyName" />
+    </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -11,11 +17,12 @@
 
         <TextView
             android:id="@+id/name_text"
-            style="@style/NameStyle"
+            android:text="@={myName.name}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/name"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            style="@style/NameStyle"
+            />
 
         <EditText
             android:id="@+id/nickname_edit"
@@ -38,11 +45,13 @@
 
         <TextView
             android:id="@+id/nickname_text"
+            android:text="@={myName.nickname}"
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:visibility="gone" />
+            android:visibility="gone"
+            />
 
         <ImageView
             android:id="@+id/star_image"
